@@ -1,3 +1,4 @@
+import React from 'react';
 import RenderPromises from './RenderPromises';
 
 function makeDefaultQueryInfo() {
