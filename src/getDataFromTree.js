@@ -1,13 +1,6 @@
 import React from 'react';
 import RenderPromises from './RenderPromises';
 
-function makeDefaultQueryInfo() {
-  return {
-    seen: false,
-    observable: null,
-  };
-}
-
 export default function getDataFromTree(tree, context = {}) {
   return getMarkupFromTree({
     tree,
