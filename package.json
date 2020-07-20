@@ -1,6 +1,6 @@
 {
   "name": "next-utils",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Collection of handy utility functions for working within a Next.js project.",
   "repository": "ryanhefner/next-utils",
   "author": "Ryan Hefner <hi@ryanhefner.com> (https://www.ryanhefner.com)",
