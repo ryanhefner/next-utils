@@ -3,7 +3,6 @@
 [![npm](https://img.shields.io/npm/v/next-utils?style=flat-square)](https://www.pkgstats.com/pkg:next-utils)
 [![NPM](https://img.shields.io/npm/l/next-utils?style=flat-square)](LICENSE)
 [![npm](https://img.shields.io/npm/dt/next-utils?style=flat-square)](https://www.pkgstats.com/pkg:next-utils)
-![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/ryanhefner/next-utils?style=flat-square)
 
 Handy utilities for building React components that render as nice server-side
 as they do on the client.
