@@ -3,6 +3,13 @@
 import { Component } from 'react';
 
 /**
+ * clientServer
+ */
+
+export function isClient(): boolean;
+export function isServer(): boolean;
+
+/**
  * getDataFromTree
  */
 
