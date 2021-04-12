@@ -122,6 +122,24 @@ class RequestComponent extends Component {
 }
 ```
 
+## Other Handy Utils
+
+Because I got tired of repeating myself with these across multiple projects.
+
+* `isClient` - Basically just, `typeof window !== 'undefined'`
+* `isServer` - And, the inverse, `typeof window === 'undefined'`
+
+```js
+import { useEffect } from 'react'
+import { isServer } from 'next-utils'
+
+useEffect(() => {
+  if (isServer()) return
+
+  ...do client-side only stuff...
+})
+```
+
 ## Used by
 
 * [`next-contentful`](https://github.com/ryanhefner/next-contentful)
